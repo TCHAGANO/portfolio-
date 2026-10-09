@@ -100,13 +100,16 @@
       </div>
 
       <div class="education-item">
-        <h3>Master 1 Data Mining</h3>
+        <h3>Master 1 Data Science / Data Mining</h3>
         <p class="education-place">Université d'Angers — 2024-2025</p>
         <ul>
+          <li>Modèles de régression linéaire et logistique (GLM)</li>
+          <li>Modélisation stochastique : chaînes de Markov, processus de Poisson, files d'attente</li>
+          <li>Statistique inférentielle : estimateurs, intervalles de confiance, tests</li>
+          <li>Optimisation non linéaire (Newton-Raphson, descente de gradient)</li>
           <li>Data Mining et analyse exploratoire (ACP, AFC)</li>
-          <li>Régression linéaire, PCR, PLS</li>
           <li>Bases de données et SQL avancé</li>
-          <li>Programmation Python (Pandas, NumPy, Matplotlib)</li>
+          <li>Programmation R et Python (Pandas, NumPy, Matplotlib)</li>
         </ul>
       </div>
     </div>
@@ -123,6 +126,7 @@
           <h3>Langages & Outils</h3>
           <ul>
             <li>Python (Pandas, NumPy)</li>
+            <li>R (régression, GLM, ANOVA)</li>
             <li>SQL & PostgreSQL</li>
             <li>Jupyter Notebook</li>
             <li>Git & GitHub</li>
@@ -130,13 +134,14 @@
         </div>
 
         <div class="skill-card">
-          <div class="skill-icon">🤖</div>
-          <h3>Machine Learning</h3>
+          <div class="skill-icon">📈</div>
+          <h3>Modélisation statistique</h3>
           <ul>
-            <li>Scikit-learn</li>
-            <li>Data Mining</li>
-            <li>Modélisation prédictive</li>
-            <li>Évaluation de modèles</li>
+            <li>Régression linéaire et logistique (GLM)</li>
+            <li>Analyse de la variance (ANOVA)</li>
+            <li>Maximum de vraisemblance</li>
+            <li>Tests d'hypothèses et intervalles de confiance</li>
+            <li>Modèles linéaires généralisés</li>
           </ul>
         </div>
 
@@ -147,7 +152,32 @@
             <li>Analyse exploratoire (ACP, AFC)</li>
             <li>Régression, PCR, PLS</li>
             <li>Visualisation (Matplotlib, Seaborn)</li>
-            <li>Nettoyage de données</li>
+            <li>Nettoyage et préparation de données</li>
+            <li>Évaluation de modèles (ROC, AUC)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎲</div>
+          <h3>Modélisation stochastique</h3>
+          <ul>
+            <li>Chaînes de Markov (temps discret et continu)</li>
+            <li>Processus de Poisson</li>
+            <li>Processus de naissance et mort</li>
+            <li>Files d'attente (M/M/1, M/M/s)</li>
+            <li>Modèles de Markov cachés (HMM)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🤖</div>
+          <h3>Machine Learning</h3>
+          <ul>
+            <li>Scikit-learn</li>
+            <li>Data Mining</li>
+            <li>Modélisation prédictive</li>
+            <li>Validation croisée et sélection de modèle</li>
+            <li>Algorithme EM / Baum-Welch</li>
           </ul>
         </div>
 
@@ -155,32 +185,11 @@
           <div class="skill-icon">🗄️</div>
           <h3>Bases de données</h3>
           <ul>
-            <li>Modélisation (MCD, MLD)</li>
+            <li>Modélisation (MCD, MLD, MPD)</li>
             <li>Requêtes SQL avancées</li>
-            <li>Jointures & sous-requêtes</li>
-            <li>PostgreSQL</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-icon">🧠</div>
-          <h3>Modélisation probabiliste</h3>
-          <ul>
-            <li>Chaînes de Markov</li>
-            <li>Modèles de Markov cachés (HMM)</li>
-            <li>Algorithme EM / Baum-Welch</li>
-            <li>Maximum de vraisemblance</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-icon">📚</div>
-          <h3>Notions théoriques</h3>
-          <ul>
-            <li>Séries temporelles (ARIMA, GARCH)</li>
-            <li>Statistique en grande dimension</li>
-            <li>SVM, Random Forest, Boosting</li>
-            <li>Statistique spatiale (krigeage)</li>
+            <li>Jointures, sous-requêtes, vues</li>
+            <li>PostgreSQL & MySQL</li>
+            <li>Transactions ACID</li>
           </ul>
         </div>
 
@@ -193,6 +202,20 @@
     <div class="section-container">
       <h2 class="section-title">Projets</h2>
       <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python · HMM · Probabilités</span>
+          </div>
+          <h3>Modélisation par chaînes de Markov cachées</h3>
+          <p>
+            Étude complète d'un modèle de Markov caché : rappels probabilistes, 
+            construction de la vraisemblance, estimation par maximum de vraisemblance, 
+            implémentation de l'algorithme EM / Baum-Welch (forward-backward), 
+            validation sur données simulées et application à un jeu de données réel.
+          </p>
+          <span class="project-status">🔬 En cours de réalisation</span>
+        </article>
 
         <article class="project-card">
           <div class="project-header">
@@ -249,20 +272,6 @@
           <a href="https://github.com/TCHAGANO/Conformal-Prediction_project" target="_blank" class="project-link">
             Voir sur GitHub →
           </a>
-        </article>
-
-        <article class="project-card">
-          <div class="project-header">
-            <span class="project-tag">Python · HMM · Probabilités</span>
-          </div>
-          <h3>Modélisation par chaînes de Markov cachées</h3>
-          <p>
-            Étude complète d'un modèle de Markov caché : construction de la 
-            vraisemblance, estimation par maximum de vraisemblance, 
-            implémentation de l'algorithme EM / Baum-Welch (forward-backward), 
-            validation sur données simulées et application à un jeu de données réel.
-          </p>
-          <span class="project-status">🔬 En cours de réalisation</span>
         </article>
 
         <article class="project-card">
