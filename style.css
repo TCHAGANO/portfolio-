@@ -54,7 +54,7 @@ ul {
 
 .nav-menu {
   display: flex;
-  gap: 2rem;
+  gap: 1.75rem;
   align-items: center;
 }
 
@@ -263,10 +263,56 @@ ul {
   font-weight: 600;
 }
 
+/* ==================== FORMATION ==================== */
+.education-item {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s;
+}
+
+.education-item:hover {
+  border-color: #2563eb;
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.1);
+  transform: translateY(-3px);
+}
+
+.education-item h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.education-place {
+  color: #2563eb;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.education-item ul li {
+  color: #4a5568;
+  font-size: 0.95rem;
+  padding: 0.35rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.education-item ul li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-weight: bold;
+}
+
 /* ==================== COMPÉTENCES ==================== */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
 }
 
@@ -372,6 +418,18 @@ ul {
   text-decoration: underline;
 }
 
+.project-status {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #d97706;
+  background: #fef3c7;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  align-self: flex-start;
+}
+
 /* ==================== CONTACT ==================== */
 .contact-intro {
   font-size: 1.05rem;
@@ -434,11 +492,11 @@ ul {
   }
 
   .nav-menu {
-    gap: 1rem;
+    gap: 0.9rem;
   }
 
   .nav-menu a {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
   }
 
   .nav-cta {
