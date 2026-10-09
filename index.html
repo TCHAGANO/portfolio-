@@ -1,79 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bahissou TCHAGNAO | Data Scientist</title>
+  <meta name="description" content="Portfolio de Bahissou TCHAGNAO, étudiant en Master 2 Data Science à Angers. À la recherche d'un stage de 6 mois à partir de mars 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">BT.</a>
+      <ul class="nav-menu">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#education">Formation</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero" id="top">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-greeting">👋 Bonjour, je suis</p>
+        <h1 class="hero-title">Bahissou TCHAGNAO</h1>
+        <h2 class="hero-subtitle">Étudiant en Master 2 Data Science</h2>
+        <p class="hero-description">
+          Passionné par l'analyse de données, la modélisation statistique 
+          et le Machine Learning. Basé à Angers, France.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/TCHAGANO" target="_blank" title="GitHub">GitHub</a>
+          <span class="separator">•</span>
+          <a href="https://linkedin.com/in/bahissou-tchagnao-9a91492aa" target="_blank" title="LinkedIn">LinkedIn</a>
+          <span class="separator">•</span>
+          <a href="mailto:t.bahissou76@gmail.com" title="Email">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-status">
+        <span class="status-dot"></span>
+        <span>Disponible pour un stage de 6 mois — Mars 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- À PROPOS -->
+  <section class="section" id="about">
+    <div class="section-container">
+      <h2 class="section-title">À propos</h2>
+      <div class="about-content">
+        <p>
+          Actuellement en <strong>Master 2 Data Science</strong> à Angers, 
+          je me forme à l'analyse de données, à la modélisation statistique 
+          et au Machine Learning à travers des projets académiques et personnels.
+        </p>
+        <p>
+          Je suis à la recherche d'un <strong>stage de 6 mois à partir de mars 2026</strong> 
+          pour mettre mes compétences au service d'une équipe data et contribuer 
+          à des projets à fort impact.
+        </p>
+        <p>
+          Curieux, rigoureux et motivé, j'aime transformer des données brutes 
+          en insights actionnables.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMATION -->
+  <section class="section section-alt" id="education">
+    <div class="section-container">
+      <h2 class="section-title">Formation</h2>
+
+      <div class="education-item">
+        <h3>Master 2 Data Science</h3>
+        <p class="education-place">Université d'Angers — 2025-2026</p>
+        <ul>
+          <li>Statistique inférentielle et tests d'hypothèses</li>
+          <li>Statistique en grande dimension (LASSO, Ridge, Elastic Net)</li>
+          <li>Séries temporelles (ARMA, ARIMA, GARCH)</li>
+          <li>Apprentissage statistique (SVM, Random Forest, Boosting)</li>
+          <li>Programmation Python avancée (POO, multithreading)</li>
+          <li>Modélisation de bases de données (MCD, MLD, ETL)</li>
+          <li>Introduction à la statistique spatiale (krigeage)</li>
+        </ul>
+      </div>
+
+      <div class="education-item">
+        <h3>Master 1 Data Mining</h3>
+        <p class="education-place">Université d'Angers — 2024-2025</p>
+        <ul>
+          <li>Data Mining et analyse exploratoire (ACP, AFC)</li>
+          <li>Régression linéaire, PCR, PLS</li>
+          <li>Bases de données et SQL avancé</li>
+          <li>Programmation Python (Pandas, NumPy, Matplotlib)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <!-- COMPÉTENCES -->
-  <section class="section section-alt" id="skills">
+  <section class="section" id="skills">
     <div class="section-container">
       <h2 class="section-title">Compétences</h2>
       <div class="skills-grid">
 
         <div class="skill-card">
           <div class="skill-icon">💻</div>
-          <h3>Langages & Programmation</h3>
+          <h3>Langages & Outils</h3>
           <ul>
-            <li>Python (Pandas, NumPy, Scikit-learn)</li>
-            <li>SQL (PostgreSQL, MySQL, SQLite)</li>
-            <li>Programmation Orientée Objet (POO)</li>
-            <li>Multithreading & Multiprocessing</li>
-            <li>PyTorch (calcul GPU, Deep Learning)</li>
-          </ul>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-icon">🗄️</div>
-          <h3>Bases de données & Data Engineering</h3>
-          <ul>
-            <li>Modélisation (MCD, MLD, MPD)</li>
-            <li>Normalisation (1NF, 2NF, 3NF)</li>
-            <li>Schémas en étoile et en flocon</li>
-            <li>ETL, transactions ACID</li>
-            <li>Index, vues, triggers, procédures stockées</li>
+            <li>Python (Pandas, NumPy)</li>
+            <li>SQL & PostgreSQL</li>
+            <li>Jupyter Notebook</li>
+            <li>Git & GitHub</li>
           </ul>
         </div>
 
         <div class="skill-card">
           <div class="skill-icon">🤖</div>
-          <h3>Machine Learning & Deep Learning</h3>
+          <h3>Machine Learning</h3>
           <ul>
-            <li>Régression, classification, clustering</li>
-            <li>Random Forest, SVM, XGBoost, Boosting</li>
-            <li>Réseaux de neurones (MLP, CNN)</li>
-            <li>Réduction de dimension (LASSO, Ridge, PCA)</li>
-            <li>Validation croisée, GridSearch</li>
+            <li>Scikit-learn</li>
+            <li>Data Mining</li>
+            <li>Modélisation prédictive</li>
+            <li>Évaluation de modèles</li>
           </ul>
         </div>
 
         <div class="skill-card">
           <div class="skill-icon">📊</div>
-          <h3>Analyse de données & Statistiques</h3>
+          <h3>Analyse de données</h3>
           <ul>
             <li>Analyse exploratoire (ACP, AFC)</li>
-            <li>Statistique inférentielle (MLE, IC, tests)</li>
-            <li>Régression linéaire, PCR, PLS</li>
-            <li>Séries temporelles (ARIMA, SARIMA, GARCH)</li>
-            <li>Statistique en grande dimension</li>
+            <li>Régression, PCR, PLS</li>
+            <li>Visualisation (Matplotlib, Seaborn)</li>
+            <li>Nettoyage de données</li>
           </ul>
         </div>
 
         <div class="skill-card">
-          <div class="skill-icon">📈</div>
-          <h3>Visualisation</h3>
+          <div class="skill-icon">🗄️</div>
+          <h3>Bases de données</h3>
           <ul>
-            <li>Matplotlib, Seaborn</li>
-            <li>Visualisation 3D (mplot3d)</li>
-            <li>Analyse de séries temporelles</li>
-            <li>Dataviz pour la Data Science</li>
+            <li>Modélisation (MCD, MLD)</li>
+            <li>Requêtes SQL avancées</li>
+            <li>Jointures & sous-requêtes</li>
+            <li>PostgreSQL</li>
           </ul>
         </div>
 
         <div class="skill-card">
           <div class="skill-icon">🧠</div>
-          <h3>Modélisation avancée</h3>
+          <h3>Modélisation probabiliste</h3>
           <ul>
-            <li>Chaînes de Markov & HMM</li>
-            <li>MCMC, Sequential Monte Carlo (particules)</li>
-            <li>Algorithme EM</li>
-            <li>Krigeage & statistique spatiale</li>
+            <li>Chaînes de Markov</li>
+            <li>Modèles de Markov cachés (HMM)</li>
+            <li>Algorithme EM / Baum-Welch</li>
+            <li>Maximum de vraisemblance</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📚</div>
+          <h3>Notions théoriques</h3>
+          <ul>
+            <li>Séries temporelles (ARIMA, GARCH)</li>
+            <li>Statistique en grande dimension</li>
+            <li>SVM, Random Forest, Boosting</li>
+            <li>Statistique spatiale (krigeage)</li>
           </ul>
         </div>
 
       </div>
     </div>
   </section>
+
+  <!-- PROJETS -->
+  <section class="section section-alt" id="projects">
+    <div class="section-container">
+      <h2 class="section-title">Projets</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python · PostgreSQL · ML</span>
+          </div>
+          <h3>Chatbot Data Science</h3>
+          <p>
+            Chatbot intelligent d'analyse de données commerciales. 
+            Utilisation de PostgreSQL pour le stockage, SQL pour les requêtes 
+            et Machine Learning pour la prédiction.
+          </p>
+          <a href="https://github.com/TCHAGANO/Chatbot_data_science" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Data Mining · ACP · PCR · PLS</span>
+          </div>
+          <h3>iFood Customer Behavior Analysis</h3>
+          <p>
+            Analyse exploratoire (ACP, AFC) et prédictive (Régression, PCR, PLS) 
+            des données marketing iFood. Projet de Data Mining du M1.
+          </p>
+          <a href="https://github.com/TCHAGANO/ifood-customer-behavior-analyse" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Jupyter · Data Science</span>
+          </div>
+          <h3>Crédit Risque API</h3>
+          <p>
+            Projet d'analyse du risque de crédit. Modélisation et évaluation 
+            de la probabilité de défaut à partir de données financières.
+          </p>
+          <a href="https://github.com/TCHAGANO/crédit-risque-api" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python · Statistiques</span>
+          </div>
+          <h3>Conformal Prediction Project</h3>
+          <p>
+            Implémentation de méthodes de prédiction conforme pour 
+            quantifier l'incertitude des modèles de Machine Learning.
+          </p>
+          <a href="https://github.com/TCHAGANO/Conformal-Prediction_project" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python · HMM · Probabilités</span>
+          </div>
+          <h3>Modélisation par chaînes de Markov cachées</h3>
+          <p>
+            Étude complète d'un modèle de Markov caché : construction de la 
+            vraisemblance, estimation par maximum de vraisemblance, 
+            implémentation de l'algorithme EM / Baum-Welch (forward-backward), 
+            validation sur données simulées et application à un jeu de données réel.
+          </p>
+          <span class="project-status">🔬 En cours de réalisation</span>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python · SQL</span>
+          </div>
+          <h3>Enron DB Project</h3>
+          <p>
+            Analyse et exploration de la base de données Enron. 
+            Requêtes SQL avancées et extraction d'insights à partir 
+            de données textuelles volumineuses.
+          </p>
+          <a href="https://github.com/TCHAGANO/enron_db_project" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">
+        Vous cherchez un stagiaire motivé en Data Science ? Discutons-en !
+      </p>
+      <div class="contact-grid">
+
+        <a href="mailto:t.bahissou76@gmail.com" class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h3>Email</h3>
+          <p>t.bahissou76@gmail.com</p>
+        </a>
+
+        <a href="https://linkedin.com/in/bahissou-tchagnao-9a91492aa" target="_blank" class="contact-card">
+          <div class="contact-icon">💼</div>
+          <h3>LinkedIn</h3>
+          <p>Bahissou TCHAGNAO</p>
+        </a>
+
+        <a href="https://github.com/TCHAGANO" target="_blank" class="contact-card">
+          <div class="contact-icon">🐙</div>
+          <h3>GitHub</h3>
+          <p>@TCHAGANO</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Bahissou TCHAGNAO — Fait avec GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
