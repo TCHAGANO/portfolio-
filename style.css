@@ -419,18 +419,6 @@ ul {
   text-decoration: underline;
 }
 
-.project-status {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #d97706;
-  background: #fef3c7;
-  padding: 0.35rem 0.75rem;
-  border-radius: 6px;
-  margin-top: 0.5rem;
-  align-self: flex-start;
-}
-
 /* ==================== CONTACT ==================== */
 .contact-intro {
   font-size: 1.05rem;
