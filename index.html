@@ -1,174 +1,350 @@
+!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bahissou TCHAGNAO | Data Scientist</title>
+  <meta name="description" content="Portfolio de Bahissou TCHAGNAO, étudiant en Master 2 Data Science à Angers. À la recherche d'un stage de 6 mois à partir de mars 2027.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-BT.
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">BT.</a>
+      <ul class="nav-menu">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#education">Formation</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    À propos
-    Formation
-    Compétences
-    Projets
-    Contact
+  <!-- HERO SECTION -->
+  <header class="hero" id="top">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-greeting">👋 Bonjour, je suis</p>
+        <h1 class="hero-title">Bahissou TCHAGNAO</h1>
+        <h2 class="hero-subtitle">Étudiant en Master 2 Data Science</h2>
+        <p class="hero-description">
+          Passionné par l'analyse de données, la modélisation statistique 
+          et le Machine Learning. Étudiant à Angers, mobile partout en France.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/TCHAGANO" target="_blank" title="GitHub">GitHub</a>
+          <span class="separator">•</span>
+          <a href="https://linkedin.com/in/bahissou-tchagnao-9a91492aa" target="_blank" title="LinkedIn">LinkedIn</a>
+          <span class="separator">•</span>
+          <a href="https://assistant-ai-tchagnao-db.streamlit.app/" target="_blank" title="Démo Streamlit">Démo IA</a>
+          <span class="separator">•</span>
+          <a href="mailto:t.bahissou76@gmail.com" title="Email">Email</a>
+        </div>
+      </div>
 
-👋 Bonjour, je suis
-Bahissou TCHAGNAO
-Étudiant en Master 2 Data Science
+      <div class="hero-status">
+        <span class="status-dot"></span>
+        <span>Disponible pour un stage de 6 mois — Mars 2027</span>
+      </div>
+    </div>
+  </header>
 
-Je développe des solutions de Data Science, de Machine Learning et d'intelligence artificielle, de l'analyse des données jusqu'à leur mise à disposition dans des applications. Étudiant à l'Université d'Angers, mobile partout en France.
-Voir mes projets Me contacter
-GitHub • LinkedIn • Démo Text-to-SQL • Email
-Disponible pour un stage de 6 mois — Mars 2027
-À propos
+  <!-- À PROPOS -->
+  <section class="section" id="about">
+    <div class="section-container">
+      <h2 class="section-title">À propos</h2>
+      <div class="about-content">
+        <p>
+          Actuellement en <strong>Master 2 Data Science</strong> à l'Université d'Angers, 
+          je combine une formation en modélisation statistique, Machine Learning 
+          et modélisation stochastique avec des projets concrets en analyse de données 
+          et déploiement de modèles.
+        </p>
+        <p>
+          Je recherche un <strong>stage de 6 mois à partir de mars 2027</strong>, 
+          <strong>mobile partout en France</strong>, en Data Science ou Data Analytics.
+        </p>
+        <p>
+          Curieux, rigoureux et motivé, j'aime transformer des données brutes 
+          en insights actionnables.
+        </p>
+      </div>
+    </div>
+  </section>
 
-Actuellement en Master 2 Data Science à l'Université d'Angers, je dispose d'une formation en mathématiques, statistique et modélisation. Je mobilise ces connaissances dans des projets de Machine Learning, d'analyse de données et de développement d'applications autour des modèles.
+  <!-- FORMATION -->
+  <section class="section section-alt" id="education">
+    <div class="section-container">
+      <h2 class="section-title">Formation</h2>
 
-Je recherche un stage de 6 mois à partir de mars 2027, en Data Science ou Data Analytics, et je suis mobile partout en France.
+      <div class="education-item">
+        <h3>Master 2 Data Science</h3>
+        <p class="education-place">Université d'Angers — Sept. 2026 à Sept. 2027</p>
+        <ul>
+          <li><strong>Statistique en Grande Dimension et Apprentissage</strong> — LASSO, Ridge, Elastic Net, XGBoost</li>
+          <li><strong>Séries Chronologiques et Applications</strong> — ARMA, ARIMA, SARIMA, GARCH</li>
+          <li><strong>Informatique pour le Big Data</strong> — multiprocessing, multithreading, PyTorch, calcul GPU</li>
+          <li><strong>Analyse du signal en temps discret</strong></li>
+          <li><strong>Apprentissage par renforcement et modèles génératifs</strong></li>
+          <li><strong>Modélisation par chaînes de Markov cachées</strong> (Projet Annuel Tutoré)</li>
+        </ul>
+      </div>
 
-J'aime construire des solutions complètes : comprendre un problème métier, préparer les données, entraîner et évaluer un modèle, puis exposer les résultats dans une application utilisable.
-Formation
-Master 2 Data Science
+      <div class="education-item">
+        <h3>Master 1 Data Science</h3>
+        <p class="education-place">Université d'Angers — Sept. 2025 à Juin 2026</p>
+        <ul>
+          <li><strong>Analyse Numérique Matricielle</strong></li>
+          <li><strong>Optimisation Non-Linéaire</strong> — Newton-Raphson, descente de gradient</li>
+          <li><strong>Statistique inférentielle</strong> — estimateurs, intervalles de confiance, tests d'hypothèses</li>
+          <li><strong>Modélisation Stochastique 1 & 2</strong> — chaînes de Markov, processus de Poisson, files d'attente</li>
+          <li><strong>POO et Traitement des données en Python</strong></li>
+          <li><strong>Datamining et Classification</strong> — ACP, AFC, clustering</li>
+          <li><strong>Modèles de Régression</strong> — régression linéaire, logistique, GLM, ANOVA</li>
+          <li><strong>Structuration des données</strong> — SQL, PostgreSQL, MCD, MLD, MPD</li>
+        </ul>
+      </div>
 
-Université d'Angers — Sept. 2026 à Sept. 2027
+      <div class="education-item">
+        <h3>Licence fondamentale de mathématiques</h3>
+        <p class="education-place">Université de Bretagne Occidentale — Brest — Fév. 2024 à Juin 2025</p>
+      </div>
 
-    Statistique en grande dimension et apprentissage — LASSO, Ridge, Elastic Net, XGBoost
-    Séries chronologiques et applications — ARMA, ARIMA, SARIMA, GARCH
-    Informatique pour le Big Data — multiprocessing, multithreading, PyTorch, calcul GPU
-    Analyse du signal en temps discret
-    Apprentissage par renforcement et modèles génératifs
-    Modélisation par chaînes de Markov cachées — projet annuel tutoré
+      <div class="education-item">
+        <h3>Licence de mathématiques fondamentales</h3>
+        <p class="education-place">Université de Lomé — Togo — Sept. 2019 à Juil. 2022</p>
+      </div>
+    </div>
+  </section>
 
-Master 1 Data Science
+  <!-- COMPÉTENCES -->
+  <section class="section" id="skills">
+    <div class="section-container">
+      <h2 class="section-title">Compétences</h2>
+      <div class="skills-grid">
 
-Université d'Angers — Sept. 2025 à Juin 2026
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Langages & Outils</h3>
+          <ul>
+            <li>Python (Pandas, NumPy, Scikit-learn, PyTorch)</li>
+            <li>R (régression, GLM, ggplot2)</li>
+            <li>SQL, PostgreSQL, MySQL</li>
+            <li>FastAPI, Streamlit, Django</li>
+            <li>Docker, Docker Compose</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
 
-    Analyse numérique matricielle et optimisation non linéaire
-    Statistique inférentielle — estimateurs, intervalles de confiance, tests d'hypothèses
-    Modélisation stochastique — chaînes de Markov, processus de Poisson, files d'attente
-    Python et programmation orientée objet
-    Datamining et classification — ACP, AFC, clustering
-    Modèles de régression — régression linéaire, logistique, GLM, ANOVA
-    Structuration des données — SQL, PostgreSQL, MCD, MLD, MPD
+        <div class="skill-card">
+          <div class="skill-icon">🤖</div>
+          <h3>Machine Learning</h3>
+          <ul>
+            <li>Classification, régression, clustering</li>
+            <li>Random Forest, XGBoost</li>
+            <li>Ridge, LASSO, Elastic Net</li>
+            <li>Validation croisée</li>
+            <li>Évaluation de modèles (ROC, AUC)</li>
+          </ul>
+        </div>
 
-Licence fondamentale de mathématiques
+        <div class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>Analyse de données</h3>
+          <ul>
+            <li>Analyse exploratoire (ACP, AFC, ACM)</li>
+            <li>Régression, PCR, PLS</li>
+            <li>Segmentation (K-means)</li>
+            <li>Tests statistiques (Kruskal-Wallis, Dunn)</li>
+            <li>Visualisation (Matplotlib, Seaborn, ggplot2)</li>
+          </ul>
+        </div>
 
-Université de Bretagne Occidentale — Brest — Fév. 2024 à Juin 2025
-Licence de mathématiques fondamentales
+        <div class="skill-card">
+          <div class="skill-icon">🎲</div>
+          <h3>Modélisation stochastique</h3>
+          <ul>
+            <li>Chaînes de Markov</li>
+            <li>Processus de Poisson</li>
+            <li>Files d'attente</li>
+            <li>Modèles de Markov cachés (HMM)</li>
+            <li>Simulation stochastique</li>
+          </ul>
+        </div>
 
-Université de Lomé — Togo — Sept. 2019 à Juil. 2022
-Compétences
-💻
-Programmation & outils
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>Calcul parallèle & Deep Learning</h3>
+          <ul>
+            <li>Multiprocessing, multithreading</li>
+            <li>PyTorch (tenseurs, autograd)</li>
+            <li>Calcul GPU (CUDA)</li>
+            <li>Optimisation par gradient</li>
+          </ul>
+        </div>
 
-    Python : Pandas, NumPy, Scikit-learn
-    R : tidyverse, forecast, ggplot2, R Markdown
-    SQL : PostgreSQL, MySQL
-    FastAPI, Pydantic, Streamlit, Django
-    Git, GitHub et Docker
+        <div class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>Bases de données & IA</h3>
+          <ul>
+            <li>Modélisation (MCD, MLD, MPD)</li>
+            <li>SQL avancé, jointures, vues</li>
+            <li>PostgreSQL, MySQL</li>
+            <li>LLM (intégration API)</li>
+            <li>Neon Cloud</li>
+          </ul>
+        </div>
 
-🤖
-Machine Learning
+      </div>
+    </div>
+  </section>
 
-    Classification et régression
-    Régression logistique, Random Forest, XGBoost
-    Ridge, LASSO, Elastic Net
-    Validation croisée et optimisation
-    ROC-AUC, précision, rappel et F1-score
-    Gestion du déséquilibre des classes
+  <!-- PROJETS -->
+  <section class="section section-alt" id="projects">
+    <div class="section-container">
+      <h2 class="section-title">Projets</h2>
+      <div class="projects-grid">
 
-📊
-Analyse de données
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python · Scikit-learn · FastAPI · Docker</span>
+          </div>
+          <h3>Prédiction du risque de défaut de crédit</h3>
+          <p>
+            Préparation des données, comparaison de modèles (Régression logistique, 
+            Random Forest) et évaluation par validation croisée. Déploiement du modèle 
+            via une API REST avec FastAPI et conteneurisation Docker.
+          </p>
+          <a href="https://github.com/TCHAGANO/crédit-risque-api" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
 
-    Analyse exploratoire et préparation des données
-    ACP, AFC, ACM, PCR et PLS
-    Segmentation K-means
-    Tests statistiques : Kruskal-Wallis, Dunn
-    Matplotlib, Seaborn et ggplot2
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python · PostgreSQL · LLM · Streamlit</span>
+          </div>
+          <h3>Assistant conversationnel Text-to-SQL</h3>
+          <p>
+            Développement d'un assistant IA connecté à une base PostgreSQL de 
+            500 000 lignes hébergée sur Neon Cloud. Conversion de questions en 
+            langage naturel en requêtes SQL via un LLM, avec interface Streamlit 
+            interactive.
+          </p>
+          <a href="https://assistant-ai-tchagnao-db.streamlit.app/" target="_blank" class="project-link">
+            Voir la démo en ligne →
+          </a>
+        </article>
 
-📈
-Séries temporelles & statistiques
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python · Django · PostgreSQL · Docker</span>
+          </div>
+          <h3>Enron Email Analytics</h3>
+          <p>
+            Développement d'une application web d'e-Discovery sur plus de 500 000 
+            courriels : recherche plein texte, exploration des conversations et 
+            analyse des communications.
+          </p>
+          <a href="https://github.com/TCHAGANO/enron_db_project" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
 
-    ARMA, ARIMA et SARIMA
-    Décomposition et saisonnalité
-    Modélisation et prévision
-    Statistique inférentielle
-    Modélisation stochastique et chaînes de Markov
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">R · Python · Scikit-learn · K-means</span>
+          </div>
+          <h3>Analyse de churn client</h3>
+          <p>
+            Segmentation de 10 000 clients par K-means et modélisation du risque 
+            de départ par régression logistique. Analyse des facteurs associés 
+            au churn et tests statistiques (Kruskal-Wallis, Dunn).
+          </p>
+          <a href="https://github.com/TCHAGANO" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
 
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">R · ACP · ACM · PCR · PLS</span>
+          </div>
+          <h3>Segmentation marketing client (iFood)</h3>
+          <p>
+            Analyse exploratoire et factorielle (ACP, ACM) des données clients, 
+            segmentation des consommateurs et modélisation prédictive du comportement 
+            d'achat (PCR, PLS).
+          </p>
+          <a href="https://github.com/TCHAGANO/ifood-customer-behavior-analyse" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
 
-Développement & déploiement
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">R · Python · Quantreg · Statistiques</span>
+          </div>
+          <h3>Prédiction conforme et quantification de l'incertitude</h3>
+          <p>
+            Implémentation et comparaison des méthodes SCP et CQR sur des données 
+            cardiovasculaires afin de construire des intervalles de prédiction 
+            avec une garantie de couverture.
+          </p>
+          <a href="https://github.com/TCHAGANO/Conformal-Prediction_project" target="_blank" class="project-link">
+            Voir sur GitHub →
+          </a>
+        </article>
 
-    Conception d'API REST avec FastAPI
-    Validation des données avec Pydantic
-    Applications interactives avec Streamlit
-    Intégration de modèles ML dans une application
-    Déploiement et GitHub
+      </div>
+    </div>
+  </section>
 
-🗄️
-Bases de données & IA
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">
+        Vous cherchez un stagiaire motivé en Data Science ? Discutons-en !
+      </p>
+      <div class="contact-grid">
 
-    Modélisation relationnelle et normalisation
-    SQL avancé, jointures et vues
-    PostgreSQL, MySQL et Neon Cloud
-    Intégration d'API de modèles de langage (LLM)
-    Recherche plein texte PostgreSQL
+        <a href="mailto:t.bahissou76@gmail.com" class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h3>Email</h3>
+          <p>t.bahissou76@gmail.com</p>
+        </a>
 
-Projets
-Python · XGBoost · FastAPI · Pydantic · Streamlit
-Prédiction du risque de défaut de crédit
+        <a href="https://linkedin.com/in/bahissou-tchagnao-9a91492aa" target="_blank" class="contact-card">
+          <div class="contact-icon">💼</div>
+          <h3>LinkedIn</h3>
+          <p>Bahissou TCHAGNAO</p>
+        </a>
 
-Développement d'une solution de classification binaire visant à estimer le risque de défaut de paiement à partir du jeu de données credit_risk_dataset (32 416 observations, 12 variables).
+        <a href="https://github.com/TCHAGANO" target="_blank" class="contact-card">
+          <div class="contact-icon">🐙</div>
+          <h3>GitHub</h3>
+          <p>@TCHAGANO</p>
+        </a>
 
-Comparaison de la régression logistique, de Random Forest et de XGBoost, ainsi que de stratégies de gestion du déséquilibre des classes : absence de correction, pondération des classes et SMOTE.
+      </div>
+    </div>
+  </section>
 
-Meilleur résultat dans les expérimentations : XGBoost sans correction — ROC-AUC : 0,947 ; F1-score : 0,835 ; rappel de la classe défaut : 0,749. La pondération des classes a permis d'obtenir un rappel de 0,798.
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2027 Bahissou TCHAGNAO — Fait avec GitHub Pages</p>
+  </footer>
 
-Le pipeline entraîné est exposé via une API REST FastAPI, avec validation des entrées par Pydantic. Une interface Streamlit permet de réaliser des prédictions individuelles ou à partir d'un fichier CSV.
-
-Compétences mobilisées : préparation des données, classification, comparaison de modèles, évaluation, API REST et intégration applicative.
-Tester l'application de prédiction →
-Python · PostgreSQL · LLM · Streamlit
-Assistant conversationnel Text-to-SQL
-
-Développement d'un assistant IA qui transforme des questions formulées en français en requêtes SQL sur une base PostgreSQL de plus de 500 000 lignes. Les requêtes générées sont vérifiées avant leur exécution.
-
-L'application présente les résultats sous forme de tableaux et de graphiques et permet leur export au format CSV.
-Voir la démonstration en ligne →
-R · Séries temporelles · ARMA · SARIMA
-Prévision de la consommation électrique en France – RTE
-
-Analyse de données de consommation électrique françaises à fréquence demi-horaire. Étude des tendances, saisonnalités journalières et hebdomadaires, puis comparaison de modèles de prévision.
-
-Évaluation par validation à origine glissante sur un horizon de 24 heures. Le modèle ARMA saisonnier sur série différenciée par rapport à la semaine précédente a obtenu un MAPE de 1,68 % dans les expérimentations.
-Python · Django · PostgreSQL · Docker
-Enron Email Analytics
-
-Développement en binôme d'une application d'e-Discovery sur plus de 500 000 courriels : structuration relationnelle, import par lots, recherche plein texte, exploration des conversations et analyse des communications.
-Voir sur GitHub →
-R · Quantreg · Statistiques
-Prédiction conforme et quantification de l'incertitude
-
-Implémentation et comparaison des méthodes SCP et CQR sur des données cardiovasculaires. Couverture empirique observée de 90,7 % pour SCP et 91,3 % pour CQR, pour une couverture cible de 90 %.
-Voir sur GitHub →
-R · Python · K-means · Statistiques
-Analyse du churn client
-
-Segmentation de 10 000 clients par K-means, analyse des différences entre groupes avec les tests de Kruskal-Wallis et Dunn, puis modélisation du risque de départ par régression logistique.
-Voir mes projets sur GitHub →
-R · ACP · ACM · PCR · PLS
-Analyse du comportement client – iFood
-
-Analyse exploratoire et factorielle des données clients, étude des profils et modélisation du comportement d'achat à l'aide de méthodes statistiques multivariées.
-Voir sur GitHub →
-Contact
-
-Vous recherchez un stagiaire en Data Science ou Data Analytics ? Je serais ravi d'échanger avec vous.
-📧
-Email
-
-t.bahissou76@gmail.com
-💼
-LinkedIn
-
-Bahissou TCHAGNAO
-
-GitHub
-
-@TCHAGANO
-
-© 2026 Bahissou TCHAGNAO — Portfolio Data Science
+</body>
+</html>
